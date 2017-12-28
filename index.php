@@ -1,5 +1,11 @@
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script>
+<style>
+	.show-time {
+		color: red;
+		position: relative;
+	}
+</style>
  $(document).ready(function(){
      setInterval(ajaxcall, 1000);
  });
@@ -15,4 +21,6 @@
      });
  }
 </script>
+<div class="show-time">
 <span id="hours">0</span>:<span id="minutes">0</span>:<span id="seconds">0</span>
+</div>
