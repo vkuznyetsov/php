@@ -1,11 +1,13 @@
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script>
+<head>
 <style>
 	.show-time {
 		color: red;
 		position: relative;
 	}
 </style>
+</head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
  $(document).ready(function(){
      setInterval(ajaxcall, 1000);
  });
