@@ -1,7 +1,7 @@
 <head>
 <style>
 	.show-time {
-		color: red;
+		color: blue;
 		position: relative;
 	}
 </style>
